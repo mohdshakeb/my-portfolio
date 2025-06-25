@@ -1,14 +1,12 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
 import { motion } from "framer-motion";
 import { Header } from "@/components/layout/header";
 import { ImageTicker } from "@/components/ui/image-ticker";
 import { CustomLink } from "@/components/ui/link";
 import { ScrollButton } from "@/components/ui/scroll-button";
 import Link from "next/link";
-import { ArrowUpRight, Github, Linkedin, Twitter } from "lucide-react";
+import { Github, Linkedin, Twitter } from "lucide-react";
 
 // Custom Peerlist icon component
 function PeerlistIcon({ size = 20 }: { size?: number }) {
@@ -61,18 +59,12 @@ export default function Home() {
             Crafting purpose driven experiences with simplicity and intent.
           </p>
           <p className="text-base max-w-md text-zinc-600 leading-relaxed font-light">
-          I like to borrow Bruno Munari's words to describe myself, "A planner with an aesthetic sense" I translate complexity into experiences that feel simple, intuitive and most importantly joyful. I'm always chasing curiosity, whether it's a new project, tool or a bedtime story with my little one.
+            I like to borrow Bruno Munari&apos;s words to describe myself, &ldquo;A planner with an aesthetic sense&rdquo; I translate complexity into experiences that feel simple, intuitive and most importantly joyful. I&apos;m always chasing curiosity, whether it&apos;s a new project, tool or a bedtime story with my little one.
           </p>
         </div>
         
         {/* Links Section */}
         <div className="max-w-3xl mx-auto mb-16">
-          {/*
-          <p className="text-zinc-600 mb-6 leading-relaxed">
-            Currently working on exciting projects and always open to new opportunities. 
-            Let's connect and discuss how we can work together.
-          </p>
-          */}
           <div className="flex gap-6 items-center">
             <ScrollButton 
               sectionId="case-studies"
